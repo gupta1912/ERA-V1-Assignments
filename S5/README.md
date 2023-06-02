@@ -16,10 +16,8 @@ We ran this code in colab.
 **[utils.py](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S5/utils.py)**
 
 - This file provides utility functions for training and testing a model on the MNIST dataset using PyTorch.
-- The __GetMNISTDataLoaders__ function creates and returns data loaders for the MNIST training and test datasets.
 - The __train__ function performs training iterations on the model using the provided data loader, optimizer, and criterion.
 - The __test__ function evaluates the trained model on the test dataset.
-- The __TrainTestModel__ function combines the training and testing procedures for the model.
 
 **[S5.ipynb](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S5/S5.ipynb) (notebook)**
 
