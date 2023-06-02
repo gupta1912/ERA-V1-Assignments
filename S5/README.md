@@ -8,12 +8,12 @@ We ran this code in colab.
 
 ## Files & their descriptions
 
-**[model.py](https://github.com/sksq96/pytorch-summary/pull/21)**
+**[model.py](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S5/model.py)**
 
 - This file defines a neural network model called __Net__ for image classification on the MNIST dataset.
 - __Net__ class extends the __torch.nn.Module__ class and represents a convolutional neural network (CNN) architecture for image classification.
 
-**[utils.py](https://github.com/sksq96/pytorch-summary/pull/21)**
+**[utils.py](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S5/utils.py)**
 
 - This file provides utility functions for training and testing a model on the MNIST dataset using PyTorch.
 - The __GetMNISTDataLoaders__ function creates and returns data loaders for the MNIST training and test datasets.
@@ -21,7 +21,7 @@ We ran this code in colab.
 - The __test__ function evaluates the trained model on the test dataset.
 - The __TrainTestModel__ function combines the training and testing procedures for the model.
 
-**[S5.ipynb](https://github.com/sksq96/pytorch-summary/pull/21) (notebook)**
+**[S5.ipynb](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S5/S5.ipynb) (notebook)**
 
 - This is our working notebook. Here we import from all modules and run them as intended.
 - We create dataloaders and model, train the model for 20 epochs and plot the loss and accuracy curves.
@@ -53,7 +53,7 @@ Estimated Total Size (MB): 2.93
 ```
 ## Usage
 
-Click on this button [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/). It will open the notebook in colab. Change the notebook setting to __gpu__. Run the notebook cell wise.
+Click on this button [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gupta1912/ERA-V1-Assignments/). It will open the notebook in colab. Upload the [utils.py](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S5/utils.py) and [model.py](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S5/model.py) file in the files section. Change the notebook setting to __gpu__. Run the notebook cell wise.
 
 
 
