@@ -81,31 +81,31 @@
 ## The error graphs at different learning rate : [0.1, 0.2, 0.5, 0.8, 1.0, 2.0] 
    - learning rate = 0.1
 
-     ![image](https://github.com/Tulsi97/ERAV1_dev/assets/35035797/ef68bc23-996d-4217-b8ca-46caa52a549b)
+     ![image](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S6/part1/loss%20images/Loss_at_%CE%B7_0.1.png)
      
  
    - learning rate = 0.2
 
-     ![image](https://github.com/Tulsi97/ERAV1_dev/assets/35035797/bf96dbac-d726-4efb-b22b-daf2afda0fb1)
+     ![image](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S6/part1/loss%20images/Loss_at_%CE%B7_0.2.png)
      
    - learning rate = 0.5
    
-     ![image](https://github.com/Tulsi97/ERAV1_dev/assets/35035797/95848f80-81aa-4c1f-ba0f-e84a297a8920)
+     ![image](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S6/part1/loss%20images/Loss_at_%CE%B7_0.5.png)
 
 
    - learning rate = 0.8
    
-     ![image](https://github.com/Tulsi97/ERAV1_dev/assets/35035797/cb538ee2-5f62-41ec-b22f-d18ca0b400bd)
+     ![image](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S6/part1/loss%20images/Loss_at_%CE%B7_0.8.png)
 
 
    - learning rate = 1
   
-     ![image](https://github.com/Tulsi97/ERAV1_dev/assets/35035797/058cff32-fddc-4497-bb6a-f0753a62645b)
+     ![image](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S6/part1/loss%20images/Loss_at_%CE%B7_1.png)
 
 
    - learning rate = 2
  
-     ![image](https://github.com/Tulsi97/ERAV1_dev/assets/35035797/331cdfcf-4158-4463-98ab-33e8043902a6)
+     ![image](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S6/part1/loss%20images/Loss_at_%CE%B7_2.png)
 
 
 

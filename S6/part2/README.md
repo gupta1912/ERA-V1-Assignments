@@ -6,18 +6,18 @@ Ran this code in colab.
 
 ## Files & their descriptions
 
-**[model.py]()**
+**[model.py](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S6/part2/model.py)**
 
 - This file defines a neural network model called __Net__ for image classification on the MNIST dataset.
 - __Net__ class extends the __torch.nn.Module__ class and represents a convolutional neural network (CNN) architecture for image classification.
 
-**[utils.py]()**
+**[utils.py](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S6/part2/utils.py)**
 
 - This file provides utility functions for training and testing a model on the MNIST dataset using PyTorch.
 - The __train__ function performs training iterations on the model using the provided data loader, optimizer, and criterion.
 - The __test__ function evaluates the trained model on the test dataset.
 
-**[S6_part_2.ipynb]() (notebook)**
+**[S6_part_2.ipynb](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S6/part2/S6_part_2.ipynb) (notebook)**
 
 - This is our working notebook. Here we import from all modules and run them as intended.
 - We create dataloaders and model, train the model for 20 epochs.
@@ -70,7 +70,7 @@ Estimated Total Size (MB): 0.59
 ```
 ## Usage
 
-Click on this button [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gupta1912/ERA-V1-Assignments/). It will open the notebook in colab. Upload the [utils.py]() and [model.py]() file in the files section. Change the notebook setting to __gpu__. Run the notebook cell wise.
+Click on this button [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gupta1912/ERA-V1-Assignments/). It will open the notebook in colab. Upload the [utils.py](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S6/part2/utils.py) and [model.py](https://github.com/gupta1912/ERA-V1-Assignments/blob/main/S6/part2/model.py) file in the files section. Change the notebook setting to __gpu__. Run the notebook cell wise.
 
 ## Result
 
