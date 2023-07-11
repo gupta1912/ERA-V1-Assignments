@@ -12,15 +12,6 @@ def imshow(img):
     npimg = img.numpy()
     plt.imshow(np.transpose(npimg, (1, 2, 0)))
     plt.show()
-    
-def get_device():
-    use_cuda = torch.cuda.is_available()
-    device = torch.device("cuda" if use_cuda else "cpu")
-    return device
-
-def print_summary(model, device, input_size=(3,32,32)):
-    device = get_device()
-    summary(model, device, input_size)
 
 class CustomResnetTransforms:
     def train_transforms(means, stds):
@@ -42,6 +33,15 @@ class CustomResnetTransforms:
                 ToTensorV2(),
             ]
         )
+    
+def plot_curves(train_losses, train_acc, test_losses, test_acc):
+    fig, axs = plt.subplots(1,2,figsize=(15,5))
+    axs[0].plot(train_losses, label ='Train')
+    axs[1].plot(train_acc, label ='Test')
+    axs[0].plot(test_losses, label ='Train')
+    axs[0].set_title("Loss")
+    axs[1].plot(test_acc, label ='Test')
+    axs[1].set_title("Accuracy")
 
 def GetCorrectPredCount(pPrediction, pLabels):
     return pPrediction.argmax(dim=1).eq(pLabels).sum().item()
