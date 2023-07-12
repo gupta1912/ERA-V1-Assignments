@@ -70,3 +70,6 @@ Estimated Total Size (MB): 2414.99
 
 ## OneCycle Learning Curve LR finder
 ![image](./imgs/onecycleresult.png)
+
+## Loss and Accuracy Curves for Train and Test Data.
+![Curves](./imgs/curves.png)
