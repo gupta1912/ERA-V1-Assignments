@@ -13,10 +13,7 @@ def find_lr(model, optimizer, criterion, dataloader, device):
     lr_finder = LRFinder(model, optimizer, criterion, device=device)
     lr_finder.range_test(dataloader, end_lr=10, num_iter=200, step_mode="exp")
     lr_finder.plot()
-    suggested_lr = lr_finder.suggestion()
-    print("Suggested Learning Rate:", suggested_lr) # to inspect the loss-learning rate graph
     lr_finder.reset()
-    return suggested_lr
 
 def get_scheduler(optimizer, train_loader, suggested_lr, EPOCHS):
     scheduler = OneCycleLR(
