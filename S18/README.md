@@ -22,24 +22,24 @@
 ## Result
 
 1. Example of prediction using UNet 
-![eg_UNet](./results/eg_UNet.png)
+![results](./results/eg_UNet.png)
 
     A. MP+Tr+BCE
-![UNet_MP_Tr_BCE](./results/UNet_MP_Tr_BCE.png)
+![results](./results/UNet_MP_Tr_BCE.png)
 
     B. MP+Tr+Dice Loss
-![UNet_MP_Tr_DICE](./results/UNet_MP_Tr_DICE.png)
+![results](./results/UNet_MP_Tr_DICE.png)
 
     C. StrConv+Tr+BCE
-![UNet_Stride_Tr_BCE](./results/UNet_Stride_Tr_BCE.png)
+![results](./results/UNet_Stride_Tr_BCE.png)
 
     D. StrConv+Ups+Dice Loss
-![UNet_Stride_Ups_DICE](./results/UNet_Stride_Ups_DICE.png)
+![results](./results/UNet_Stride_Ups_DICE.png)
 
 2. VAE
 
     A. MNIST --> Input image + 25 different iterations of wrong label
-![VAE_MNIST](./results/VAE_MNIST.png)
+![results](./results/VAE_MNIST.png)
 
 
 
