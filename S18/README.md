@@ -40,6 +40,8 @@
 
     A. MNIST --> Input image + 25 different iterations of wrong label
 ![results](./results/VAE_MNIST.png)
+    B. CIFAR10 --> Input image + 25 different iterations of wrong label
+![results](./results/VAE_CIFAR10.png)
 
 
 
